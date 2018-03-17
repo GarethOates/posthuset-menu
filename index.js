@@ -3,11 +3,9 @@ const request = require('request');
 const cheerio = require('cheerio');
 
 const port = process.env.PORT || 8080;
+const app = express();
 
 const url = 'http://posthuset.eurest.no';
-const splitPattern = '\t\t\t\t\t\t\t\t\t';
-
-const app = express();
 
 app.get('/', function (req, res) {
     request(url, function (error, response, html) {
@@ -44,6 +42,8 @@ module.exports = app;
  * @returns {array} extracted meals
  */
 function extractMeals(result) {
+    const splitPattern = '\t\t\t\t\t\t\t\t\t';
+
     return result.split(splitPattern).filter(Boolean);
 }
 
