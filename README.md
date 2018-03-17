@@ -16,7 +16,7 @@ GET https://posthuset-lunch.azurewebsites.net HTTP/1.1
 ### Response
 ```
 {
-    lunch:
+    "lunch":
     [
         "Kyllinglår med ris og grønnsakker",
         "Kjøttkaker med stekte poteter og ertestuing"
