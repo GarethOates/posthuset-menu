@@ -37,3 +37,5 @@ Simply run the following command to start the application.
 ```
 node index.js
 ```
+
+and then navigate to http://localhost:8080.
