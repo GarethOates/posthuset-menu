@@ -4,13 +4,13 @@
 
 This simple node app scrapes the posthuset.eurest.no website and extracts what's for lunch for the current day.  It then uses express to host a simple API endpoint which you can GET the data from.
 
-So if the app was hosted on posthuset-menu.azurewebsites.net, the request would be as follows:
+The endpoint is currently available at https://posthuset-lunch.azurewebsites.net/
 
 ## Calling the API
 
 ### Request
 ```
-GET posthuset-menu.azurewebsites.net HTTP/1.1
+GET https://posthuset-lunch.azurewebsites.net HTTP/1.1
 ```
 
 ### Response
