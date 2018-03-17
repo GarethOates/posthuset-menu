@@ -2,16 +2,13 @@
   "name": "posthuset",
   "version": "1.0.0",
   "description": "gets menu data from posthuset eurest website",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
-  "engines": {
-    "node": ">=6.9.1"
-  },
   "repository": {
     "type": "git",
-    "url": "ssh://goates-tfs2017:22/DefaultCollection/_git/posthuset-menu-reader"
+    "url": "git@github.com:GarethOates/posthuset-menu.git"
   },
   "keywords": [
     "eurest",
@@ -20,7 +17,7 @@
     "scraping"
   ],
   "author": "Gareth Oates \"gareth.oates@soprasteria.com\"",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "cheerio": "^1.0.0-rc.2",
     "express": "^4.16.3",
