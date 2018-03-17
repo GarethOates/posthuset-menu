@@ -19,7 +19,7 @@ GET posthuset-menu.azurewebsites.net HTTP/1.1
     lunch:
     [
         "Kyllinglår med ris og grønnsakker",
-        "Kjøttkaker med stekt poteter og ertepurre"
+        "Kjøttkaker med stekte poteter og ertestuing"
         ...
     ]
 }
